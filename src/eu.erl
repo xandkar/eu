@@ -23,7 +23,7 @@ os_cmd(Command) ->
 %%% Internal
 %%%============================================================================
 
--spec get_port_exitcode_and_output(pid(), []) -> {integer(), iolist()}.
+-spec get_port_exitcode_and_output(port(), iolist()) -> {integer(), iolist()}.
 
 get_port_exitcode_and_output(PortID, DataAcc) ->
     receive
