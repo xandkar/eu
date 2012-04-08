@@ -1,0 +1,15 @@
+{application, eu,
+    [
+        {description, "A library of random shortcut/utility."},
+        {vsn, "1"},
+        {registered, []},
+        {applications,
+            [
+                kernel,
+                stdlib
+            ]
+        },
+        {mod, {eu, []}},
+        {env, []}
+    ]
+}.
